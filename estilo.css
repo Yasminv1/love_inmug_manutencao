@@ -1,0 +1,69 @@
+/* ESTILOS GLOBAIS
+-------------------------------------------------- */
+/* Padding abaixo do footer e texto mais suave no <body> */
+
+body {
+  padding-bottom: 3rem;
+  color: #e78f8f;
+}
+
+#principal{
+  margin: 0;
+}
+p{
+  color: #6c757d;
+}
+
+
+/* CUSTOMIZA O CAROUSEL
+-------------------------------------------------- */
+.img{
+  margin-left: 30%;
+  margin-top: -15%;
+}
+
+/* Declaramos alturas, devido ao posicionamento do elemento img */
+.carousel-item {
+  height: 35rem;
+  background-color: #e49b9b;
+}
+.carousel-item > img {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#rodape{
+  margin-top: 15rem;
+  background-image: url('../imagens/rodape.png');
+}
+
+/* Featrurezinhas
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Espaça o elemento <hr> mais */
+}
+
+/* Afina os cabeçalhos de marketing */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+footer a{
+  color: #e78f8f;
+}
+
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
